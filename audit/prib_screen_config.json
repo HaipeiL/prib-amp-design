@@ -1,0 +1,28 @@
+{
+  "previous_run": "/pfss/mlde/workspaces/mlde_wsp_PRIB_KI/PRIB/projects/p31/20261001/r01/DEPLOY_R01",
+  "frontier_total": 12000,
+  "frontier_per_stratum": 1800,
+  "eval_batch": 1024,
+  "lane_candidate_shard": 256,
+  "retention_delta_pmic": 0.5,
+  "catastrophic_delta_pmic": 1.0,
+  "top_similarity_safety": 0.78,
+  "top_size": 100,
+  "library_size": 50000,
+  "reference_scan_pool": 1800,
+  "pairwise_kmer_similarity_gate": 0.72,
+  "pairwise_kmer_similarity_relaxed": 0.82,
+  "minimum_pass_pool": 300,
+  "physics": {
+    "hydrophobic_fraction_caution_high": 0.70,
+    "hydrophobic_fraction_severe_high": 0.78,
+    "charge_density_caution_high": 0.60,
+    "charge_density_severe_high": 0.72,
+    "max_hydrophobic_run_caution": 4,
+    "max_hydrophobic_run_severe": 6,
+    "entropy_caution_low": 1.60,
+    "entropy_severe_low": 1.20,
+    "cysteine_caution_count": 2,
+    "cysteine_severe_count": 4
+  }
+}

@@ -1,0 +1,15 @@
+[project]
+name = "prib-amp-design"
+version = "1.0.0"
+description = "Adaptive antimicrobial-peptide generation with pre-experimental robustness and panel-level screening"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+license = { text = "MIT" }
+
+[project.scripts]
+generate = "prib_amp_design.generate:main"
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.11.0"]
+build-backend = "uv_build"

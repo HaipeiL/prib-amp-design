@@ -1,0 +1,16 @@
+{
+  "frontier_size": 12000,
+  "interpretation": "Species-level frozen-evaluator proxy aligned to the 10 unique species underlying the official 20-strain panel. It is not strain-specific MIC prediction and does not model HC50.",
+  "library_size": 50000,
+  "r02_top100_overlap": 50,
+  "r02_top100_replaced": 50,
+  "status": "PASS",
+  "top100_max_reference_similarity": 0.7777777777777778,
+  "top100_median_broad_p10": 5.339145485560099,
+  "top100_median_gram_negative_mean": 5.495742824342515,
+  "top100_median_gram_positive_mean": 5.5832618236541744,
+  "top100_median_mdr_mean": 5.512654701868693,
+  "top100_median_panel_crossmodel_floor": 5.067271709442139,
+  "top100_median_r02_reliability_floor": 0.6217184765397117,
+  "top_size": 100
+}

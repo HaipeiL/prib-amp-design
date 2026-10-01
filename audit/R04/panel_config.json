@@ -1,0 +1,58 @@
+{
+  "r01_run": "/pfss/mlde/workspaces/mlde_wsp_PRIB_KI/PRIB/projects/p31/20261001/r01/DEPLOY_R01",
+  "r02_run": "/pfss/mlde/workspaces/mlde_wsp_PRIB_KI/PRIB/projects/p31/20261001/r02_prib/DEPLOY_R02_PRIB",
+  "eval_batch": 1024,
+  "top_size": 100,
+  "library_size": 50000,
+  "reference_scan_pool": 1600,
+  "top_similarity_safety": 0.78,
+  "pairwise_kmer_similarity_gate": 0.72,
+  "pairwise_kmer_similarity_relaxed": 0.82,
+  "official_species": [
+    "Acinetobacter baumannii",
+    "Enterobacter cloacae",
+    "Escherichia coli",
+    "Klebsiella pneumoniae",
+    "Pseudomonas aeruginosa",
+    "Salmonella enterica",
+    "Bacillus subtilis",
+    "Staphylococcus aureus",
+    "Enterococcus faecalis",
+    "Enterococcus faecium"
+  ],
+  "broad_weights": {
+    "Acinetobacter baumannii": 2,
+    "Enterobacter cloacae": 1,
+    "Escherichia coli": 5,
+    "Klebsiella pneumoniae": 2,
+    "Pseudomonas aeruginosa": 3,
+    "Salmonella enterica": 2,
+    "Bacillus subtilis": 1,
+    "Staphylococcus aureus": 2,
+    "Enterococcus faecalis": 1,
+    "Enterococcus faecium": 1
+  },
+  "gram_negative_weights": {
+    "Acinetobacter baumannii": 2,
+    "Enterobacter cloacae": 1,
+    "Escherichia coli": 5,
+    "Klebsiella pneumoniae": 2,
+    "Pseudomonas aeruginosa": 3,
+    "Salmonella enterica": 2
+  },
+  "gram_positive_weights": {
+    "Bacillus subtilis": 1,
+    "Staphylococcus aureus": 2,
+    "Enterococcus faecalis": 1,
+    "Enterococcus faecium": 1
+  },
+  "mdr_weights": {
+    "Acinetobacter baumannii": 1,
+    "Escherichia coli": 2,
+    "Klebsiella pneumoniae": 1,
+    "Pseudomonas aeruginosa": 1,
+    "Staphylococcus aureus": 1,
+    "Enterococcus faecalis": 1,
+    "Enterococcus faecium": 1
+  }
+}

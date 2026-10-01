@@ -1,0 +1,17 @@
+{
+  "eligible_after_prib_and_reference": 382,
+  "frontier_size": 12000,
+  "library_size": 50000,
+  "r01_top100_overlap": 12,
+  "r01_top100_replaced": 88,
+  "safety_note": "Physics descriptors and perturbation robustness are pre-experimental risk proxies, not HC50 or biological safety predictions.",
+  "selection_principle": "official gates -> PRIB relative audit -> maximin reliability floor -> diversity gate",
+  "status": "PASS",
+  "top100_max_reference_similarity": 0.7777777777777778,
+  "top100_median_ensemble_std_max": 0.14152079548238297,
+  "top100_median_perturb_crossmodel_p10_floor": 4.760511946678162,
+  "top100_median_perturb_p10_min3": 4.991152079900106,
+  "top100_median_pmic_min3": 5.397177219390869,
+  "top100_median_retention_0p5": 0.9285714285714286,
+  "top_size": 100
+}

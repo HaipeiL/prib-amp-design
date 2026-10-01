@@ -1,0 +1,17 @@
+{
+  "all_final_candidates_no_severe_physics_flag": true,
+  "all_final_candidates_r02_pass": true,
+  "interpretation": "Species-level frozen-evaluator proxy aligned to the 10 unique species underlying the official 20-strain panel. It is not strain-specific MIC prediction and does not model HC50.",
+  "library_sha256": "0ece81746c2e514e870d68b38798c61669a56c6ed0df1b3e7084bc1d2a698a31",
+  "library_size": 50000,
+  "public_project_name": "PRIB AMP Design",
+  "public_repo_suggested": "HaipeiL/prib-amp-design",
+  "r02_top100_overlap": 50,
+  "r02_top100_replaced": 50,
+  "selection_source": "R04 pan-panel audit over frozen R02 frontier",
+  "status": "FROZEN_FINAL",
+  "top100_max_reference_similarity": 0.7777777777777778,
+  "top_sha256": "623a3729bd57211466125d49bc90f89912ed275903b02e7489a020f66fd4e14a",
+  "top_size": 100,
+  "version": "R05"
+}
